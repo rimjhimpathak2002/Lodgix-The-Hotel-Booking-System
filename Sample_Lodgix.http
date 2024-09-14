@@ -1,0 +1,6 @@
+@Sample_Lodgix_HostAddress = http://localhost:5170
+
+GET {{Sample_Lodgix_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
