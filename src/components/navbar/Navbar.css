@@ -1,0 +1,69 @@
+.navbar 
+{
+    height:50px;
+    background-color: #003580;
+    display:flex;
+    justify-content: center;
+}
+
+.navcontainer 
+{
+    width:100%;
+    max-width: 1024px;
+    /* background-color: red; */
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 24px; /* Optional: Adjust font size as needed */
+    font-weight: 500;
+}
+
+.logo:hover {
+    color: white; /* Ensure it stays white on hover */
+}
+
+.logo:visited {
+    color: white; /* Ensure it stays white after being visited */
+}
+
+.logo:active {
+    color: white; /* Ensure it stays white when clicked */
+}
+
+.navButton{
+    margin-left: 20px;
+    border:none;
+    padding : 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+
+.authForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.authForm input {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.authForm button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.authForm button:hover {
+    background-color: #0056b3;
+}

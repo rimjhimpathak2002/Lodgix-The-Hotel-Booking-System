@@ -1,0 +1,48 @@
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light background */
+}
+
+.form-container {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust width */
+}
+
+.form-input {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.form-button {
+    width: 100%; /* Full width */
+    padding: 10px;
+    background-color: #007bff; /* Primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.form-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.alternative-options {
+    text-align: center;
+    margin: 10px 0; /* Space around the alternative options */
+}
+
+.terms, .rights {
+    font-size: 12px; /* Smaller font for legal text */
+    text-align: center;
+    margin-top: 10px; /* Space above the terms */
+}

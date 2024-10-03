@@ -1,0 +1,25 @@
+.amenities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    margin-top:55px;
+}
+
+.amenity-card {
+    background-color: #163984; /* White background for cards */
+    border: 1px solid #0071c2; /* Blue border for cards */
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(33, 20, 20, 0.2); /* Shadow effect */
+    padding: 20px;
+    color:white;
+    margin: 10px;
+    width: 180px; /* Fixed width for cards */
+    text-align: center;
+    transition: transform 0.2s; /* Animation effect on hover */
+}
+
+.amenity-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
