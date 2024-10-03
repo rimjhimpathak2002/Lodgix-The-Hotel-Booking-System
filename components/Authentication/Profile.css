@@ -1,0 +1,40 @@
+/* Profile.css */
+.profile-wrapper {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-details {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+.headerBtn 
+{
+    background-color: #0071c2;
+    display:flex;
+    color:white;
+    font-weight:500;
+    border:none;
+    padding:10px;
+    justify-content: center;
+    cursor:pointer;
+}
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin-bottom: 10px;
+}
+
+.headerBtn {
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+
+/* BookingForm.css */
+
+.booking-form {
+    max-width: 600px;
+    margin: 40px auto; /* Center the form with margin */
+    /* background-color: #ffffff; White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 30px;
+    border : 3px solid #febb02;
+    background-image: url("https://cdn.pixabay.com/photo/2022/04/26/13/14/background-7158357_1280.jpg");
+}
+
+.booking-form h1 {
+    color: #004080; /* Dark blue for the heading */
+    text-align: center;
+}
+
+.booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #004080; /* Dark blue for labels */
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.booking-form input:focus {
+    border-color: #004080; /* Dark blue border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.5); /* Light blue shadow */
+}
+
+.booking-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004080; /* Dark blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #00509e; /* Lighter blue on hover */
+}
+
+.booking-form .message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff4500; /* Red for error messages */
+}
